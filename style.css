@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+   background-color: #1e1e1e;
+   margin: 17px 25px 15px 25px;
+   text-align: center;
+   font-size: small;
+   font-family: "Lucida Grande", Tahoma, Arial, Verdana, sans-serif;
+}
+.container{
+    background: #fff;
+    text-align: left;
+    border: 1px solid #ccc;
+    margin: 0 auto 10px auto;
+    width: auto;
+    min-width: 49.375rem;
+}
+h2 a{
+    height: 5rem;
+    display: block;
+    overflow: hidden;
+}
+h2{
+    font-weight: 100;
+}
+.logo{
+    background-color: #FA9300;
+    
+}
+.header{
+    margin: 20px 20px 10px;
+    padding: 0 0 13px;
+    border-bottom: 1px dotted #CCCCCC;
+}
+
+.content{
+    padding: 0 20px 20px 25px ;
+}
+
+.ratings{
+    display: inline-block;
+    width: 9rem;
+    padding: 13px 9px 15px 9px;
+    margin: 7px 8px 15px 8px;
+    text-align: center;
+    border-radius: 20px;
+    border: 1px solid #dedede;
+    background: #eee;
+    color: #222;
+}
+.table-container{
+  
+}
