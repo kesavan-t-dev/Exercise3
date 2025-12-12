@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Task 3</title>
+
     <link rel="stylesheet" href="./assets/styles/style.css">
 </head>
 <body>
@@ -13,7 +14,7 @@
         </h1>
 
         <div class="header" id="header">
-            <h2 >Example Satisfaction Survery Report</h2>
+            <h2 >Example Satisfaction Survey Report</h2>
             <div class="subtitle">This is my report. view it in all its glory!</div>
         </div>
     <div class="content">
@@ -22,99 +23,208 @@
                 <div class="ratings" id="entires">
                     <h3>Entries</h3>
                     <p id="c-1">8,211</p>
-                    <p id="sub">Since June 2008</p>
+                    <p id="sub">Since Jun 2008</p>
                 </div>
                 <div class="ratings" id="views">
                     <h3>Views</h3>
                     <p id="c-2">129,253</p>
-                    <p id="sub">Since June 2008</p>
+                    <p id="sub">Since Jun 2008</p>
                 </div>
                 <div class="ratings" id="conversion-rate">
                     <h3>Conversion Rate</h3>
                     <p id="c-3"> 6.35%</p>
-                    <p id="sub">Since June 2008</p>
+                    <p id="sub">Since Jun 2008</p>
                 </div>
-                    <div class="table-container">
-                    <p class="topic">How Satisfied?</p>
-                    <table class="table" cellspacing= 0>
+
+                <div class="table-container">
+                <p class="topic">How Satisfied?</p>
+                <table class="table" >
+                    <thead class="head">
+                        <th class="headings" >Choices</th>
+                        <th class="percentage">Percentage</th>
+                        <th id="r-3" class="count">Count</th>
+                    </thead>
+                    <tbody class="body">
+                        <tr>
+                            <th>Very Satisfied</th>
+                            <td class="bar-cell">
+                                <div class="bar barblue percent" ></div>
+                                <var class="value">36.59%</var>
+                            </td>
+                            <td id="r-3">1875</td>
+                        </tr>
+                        <tr class="even">
+                            <th>Satisfied</th>
+                            <td class="bar-cell">
+                                <div class="bar barred percent" ></div>
+                                <var class="value">23.80%</var>
+                            </td>
+                            <td id="r-3">1220</td>
+                        </tr>
+                        <tr>
+                            <th>Neutral</th>
+                            <td class="bar-cell">
+                                <div class="bar bargreen percent" ></div>
+                                <var class="value">17.80%</var>
+                            </td>
+                            <td id="r-3">920</td>
+                        </tr>
+                        <tr class="even">
+                            <th>Unsatisfied</th>
+                            <td class="bar-cell">
+                                <div class="bar barorange percent"></div>
+                                <var class="value">9.81%</var>
+                            </td>
+                            <td id="r-3">503</td>
+                        </tr>
+                        <tr>
+                            <th>Very Unsatisfied</th>
+                            <td class="bar-cell">
+                                <div class="bar baryellow" ></div>
+                                <var class="value">7.10%</var>
+                            </td>
+                            <td id="r-3">364</td>
+                        </tr>
+                        <tr class="even">
+                            <th>N/A</th>
+                            <td class="bar-cell">
+                                <div class="bar barpink" style="width: 4.90%;"></div>
+                                <var class="value">4.90% </var>
+                            </td>
+                            <td id="r-3">251</td>
+                        </tr>
+                        
+                    
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td  class="empty">&nbsp;</td>
+                            <th>Total</th>
+                            <td class="total-value">5125</td>
+                        </tr>
+                        <tr class="footer">
+                            <td  class="empty">&nbsp;</td>
+                            <th ><i>unanswered</i></th>
+                            <td id="r-3" class="style">3086</td>
+                        </tr>
+
+                        
+                    </tfoot>
+                </table>
+                </div>
+                <span class="space">&nbsp;</span>
+
+                <div class="table-container">
+                    <p class="topic">Satisfied by?</p>
+                    <table class="table" >
                         <thead class="head">
                             <th class="headings" >Choices</th>
-                            <th class="headings">Percentage</th>
-                            <th id="r-3" class="headings">Count</th>
+                            <th class="percentage">Percentage</th>
+                            <th id="r-3" class="count">Count</th>
                         </thead>
                         <tbody class="body">
                             <tr>
-                                <th>Very Satisfied</th>
+                                <th>Quality</th>
                                 <td class="bar-cell">
-                                    <div class="bar barblue" style="width: 42.59%;"></div>
-                                    <var class="value">36.59%</var>
+                                    <div class="bar barblue" ></div>
+                                    <var class="value">20.12%</var>
                                 </td>
-                                <td id="r-3">1875</td>
+                                <td id="r-3">693</td>
+                            </tr>
+                            <tr class="even">
+                                <th>Price</th>
+                                <td class="bar-cell">
+                                    <div class="bar barred percent" style="width: 18.52%;"></div>
+                                    <var class="value">18.52%</var>
+                                </td>
+                                <td id="r-3">638</td>
                             </tr>
                             <tr>
-                                <th>Satisfied</th>
+                                <th>Purchase Experience</th>
                                 <td class="bar-cell">
-                                    <div class="bar barred" style="width: 23.80%;"></div>
-                                    <var class="value">23.80%</var>
+                                    <div class="bar bargreen percent" style="width: 14.81%;"></div>
+                                    <var class="value">14.81%</var>
                                 </td>
-                                <td id="r-3">1220</td>
+                                <td id="r-3">510</td>
                             </tr>
                             <tr>
-                                <th>Neutral</th>
+                                <th>Installation or First Use Experience</th>
                                 <td class="bar-cell">
-                                    <div class="bar bargreen" style="width: 17.80%;"></div>
-                                    <var class="value">17.80%</var>
+                                    <div class="bar barorange percent" style="width: 14.81%;"></div>
+                                    <var class="value">14.81%</var>
                                 </td>
-                                <td id="r-3">920</td>
+                                <td id="r-3">510</td>
+                            </tr>
+                            <tr class="even">
+                                <th>Usage Experience</th>
+                                <td class="bar-cell">
+                                    <div class="bar baryellow" style="width: 13.76%;"></div>
+                                    <var class="value">13.76%</var>
+                                </td>
+                                <td id="r-3">474</td>
                             </tr>
                             <tr>
-                                <th>Unsatisfied</th>
+                                <th>Customer Service</th>
                                 <td class="bar-cell">
-                                    <div class="bar barorange" style="width: 9.81%;"></div>
-                                    <var class="value">9.81%</var>
+                                    <div class="bar barpink" style="width: 11.73%;"></div>
+                                    <var class="value">11.73%</var>
                                 </td>
-                                <td id="r-3">503</td>
+                                <td id="r-3">404</td>
                             </tr>
-                            <tr>
-                                <th>Very Unsatisfied</th>
+                            <tr class="even">
+                                <th>Repeat Purchase Experience</th>
                                 <td class="bar-cell">
-                                    <div class="bar baryellow" style="width: 7.10%;"></div>
-                                    <var class="value">7.10%</var>
+                                    <div class="bar barpurple" style="width: 6.39%;"></div>
+                                    <var class="value">6.39% </var>
                                 </td>
-                                <td id="r-3">364</td>
-                            </tr>
-                            <tr>
-                                <th>N/A</th>
-                                <td class="bar-cell">
-                                    <div class="bar barpink" style="width: 4.90%;"></div>
-                                    <var class="value">4.90% </var>
-                                </td>
-                                <td id="r-3">251</td>
+                                <td id="r-3">220</td>
                             </tr>
                             
                            
                         </tbody>
                         <tfoot>
                             <tr>
-                                <td >&nbsp;</td>
+                                <td  class="empty">&nbsp;</td>
                                 <th>Total</th>
-                                <td id="r-3">5125</td>
+                                <td class="total-value">3444</td>
                             </tr>
-                            <tr>
-                                <td >&nbsp;</td>
-                                <th ><var>unaswered</var></th>
-                                <td id="r-3">3086</td>
+                            <tr class="footer">
+                                <td  class="empty">&nbsp;</td>
+                                <th ><i>unanswered</i></th>
+                                <td id="r-3" class="style">4767</td>
                             </tr>
+
+                            
                         </tfoot>
                     </table>
                     </div>
                     <span class="space">&nbsp;</span>
 
-                    <div></div>
+
+
+
+                    
+            </div>
+            
+       </div>
+
+       <div class="side-b">
+        <div class="chart-use-again">
+            <h3>Use again?</h3>
+            <div class="image-container">
+                <img src="./assets/images/chart-1.png" class="image" alt="use-again-chart-1">
+                <div class="list-container">
+                   <div class="list-items">
+                    <div class="red-dot"></div>
+                   </div> 
+
+                </div>
             </div>
 
         </div>
+
        </div>
+    </div>
     </div>
 </body>
 </html>
