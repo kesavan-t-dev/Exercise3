@@ -77,7 +77,7 @@ h2{
     padding-bottom: 3px;
 }
 #c-3{
-    color: #499cc9;
+    color: #3a7b9f;
     font-size: 190%;
     font-style: normal;
     font-weight: bold;
@@ -429,36 +429,28 @@ th.view-more {
 .footer{
     text-align: center;
     font-size: 85%;
-    margin: 0px 10px;
-    padding: 10px 0 0 ;
+
 
 }
 .bottom-logo{
     display: inline-block;
-    overflow: auto;
-    margin: auto;
-    width: 14rem;
-    border-radius: 18px;
-    padding: 5px 14px;
-    text-align: center;
-    font-size: 10px;
+    border-radius: 14px;
+    padding: 0px 10px 3px 14px;
     border: 1px solid #dedede;
     color: #555;
-    line-height: 24px;
     background-color: #eaeaea;
     cursor: pointer;
     margin: 5px 0 25px;
-    
 }
 .bottom-logo img{
-    height: 1.5rem;
-    width: 3.5rem;
+    height: 2.8rem;
+    /* width: 5.5rem; */
 }
 
 .bottom-logo a{
     text-decoration: none;
     color: #555;
-
+    font-size: 11px;
 }
 
 
