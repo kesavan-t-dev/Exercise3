@@ -51,7 +51,7 @@ h2{
 .subtitle{
     line-height: 130%;
     text-align: left;
-    font-size: 95% !important;
+    font-size: 95% ;
 }
 .side-a{
     float: left;
@@ -90,11 +90,11 @@ h2{
 .ratings{
     display: inline-block;
     height: auto;
-    width: 12rem;
+    width: 12.2rem;
     padding: 13px 9px 15px;
     margin: 7px 8px 15px ;
     text-align: center;
-    border-radius: 20.7px;
+    border-radius: 20px;
     border: 1px solid #dedede;
     background: #eee;
     color: #000000;
@@ -113,19 +113,22 @@ h2{
 thead{
     text-align: left;
     vertical-align: bottom;
-    
 }
+
 .head th{
-    font-weight: normal !important;
+    font-weight: normal ;
     font-size: 100%;
-    line-height: 150%;
+    line-height: 17.7px;
+    font-size: 13px;
     padding: 5px 7px 5px 7px;
     background-color: #dedede;
     border-right: 1px solid #cccccc;
     border-bottom: 1px solid #dedede;
+
 }
 
-.count{
+
+.count-column{
     width: 10%;
     text-align: center;
 }
@@ -135,8 +138,7 @@ thead{
     border-collapse: separate; 
     border-spacing: 0.8px; 
     border-left: 1px solid #dedede;
-    margin: 0 0 2em 0;
-    line-height: 18px;
+    margin: 0 0 20px 0;
 }
 #r-3{
     text-align: center;
@@ -146,12 +148,12 @@ thead{
     
 }
 .body th{
-    width: 45%;
+    width:40%;
     border-right: 1px solid #cccccc;
     border-bottom: 1px solid #dedede;
     font-weight:bold;
     padding: 7px 9px;
-    line-height: 15px;
+    line-height: 17px;
 }
 .body{
     border-right: 1px solid #cccccc;
@@ -160,7 +162,6 @@ thead{
 
 .head{
     background-color: #dedede;
-    /* text-align: left; */
     vertical-align: bottom;
     
 }
@@ -173,10 +174,41 @@ td.bar-cell {
     border-bottom: 1px solid #dedede;
 }
 td.percent .bar {
-    height: 17px;
+    height: 16px;
     display: inline-block;
     float: left;
 }
+
+.blue-percentage{
+    background-color: #499cc9;
+    width: 20.12%;
+}
+.red-percentage{
+    background-color: #e53f11;
+    width: 18.52%;
+}
+.green-percentage{
+    background-color: #AACC0D;
+    width: 14.81%;
+}
+.orange-percentage{
+    background-color: #FA9300;
+    width: 14.81%;
+}
+.yellow-percentage{
+    background-color: #F9CC0B;
+    width: 13.76%;
+}
+.pink-percentage{
+    
+    background-color: #DD1f5D;
+    width: 11.73%;
+}
+.purple-percentage{
+    background-color: #A76BC1;
+    width: 6.39%;
+}
+
 tfoot th{
     font-weight: bold;
     font-size: 110%;
@@ -222,7 +254,7 @@ tbody.body tr.even {
 
 .barblue{
     background-color: #499cc9;
-    width: 42.34%;
+    width: 36.59%;
     border-radius: 1px solid #499cc9; 
 }
 
@@ -271,14 +303,13 @@ tbody.body tr.even {
     padding-top: 3px;
     margin-bottom: 15px;
 }
+
 .chart-use-again h3{
     font-size: 15px;
     font-weight: normal;
     margin: 0;
 }
-.chart-1-container{
-    padding: 12px;
-}
+
 .image-container{
     padding: 15px;
     text-align: center;
@@ -286,12 +317,12 @@ tbody.body tr.even {
     color: #ccc;
 }
 .image{
-    height: 9.5rem;
-    width: 13.75rem;
+    height: 9.3rem;
+    width: 13.7rem;
 }
 .dot{
     height: 8px;
-    width: 8px;
+    width: 9px;
     border-radius: 50%;
     
 }
@@ -308,16 +339,21 @@ li .inline{
     display: inline-block;
     vertical-align: middle;
 }
+i{
+    font-weight: lighter;
+    font-size: 12px;
+}
 
 li{
-    padding: 3px 0;
+    padding: 1.5px 0;
+    vertical-align: middle;
 }
 .chart-text{
-    font-size: 9px;
+    font-size: 9.2px;
     margin-left: 4px;
     color: #000000;
     display: inline-block;
-    vertical-align: middle;
+    
 }
 
 .color-blue{
@@ -375,9 +411,6 @@ th.view-more {
     border-bottom: 1px solid #dedede;
 
 }
-#stlye{
-    font-weight: bold;
-}
 .total-values{
     font-size: 12px;
     text-align:left;
@@ -385,9 +418,17 @@ th.view-more {
     border-right: 1px solid #cccccc;
     border-bottom: 1px solid #dedede;
 } 
+.counts{
+    padding: 0 0 2px;
+}
+
+.style{
+    font-style: italic;
+    font-size: 12px;
+}
 .footer{
     text-align: center;
-    font-size: 86%;
+    font-size: 85%;
     margin: 0px 10px;
     padding: 10px 0 0 ;
 
@@ -396,25 +437,35 @@ th.view-more {
     display: inline-block;
     overflow: auto;
     margin: auto;
-    width: 22rem;
-    border-radius: 25px;
-    margin: 5 auto 25 auto;
+    width: 14rem;
+    border-radius: 18px;
     padding: 5px 14px;
     text-align: center;
-    font-size: 12px;
+    font-size: 10px;
     border: 1px solid #dedede;
     color: #555;
     line-height: 24px;
     background-color: #eaeaea;
-   
+    cursor: pointer;
+    margin: 5px 0 25px;
     
 }
 .bottom-logo img{
-    height: 3.5rem;
-    width: 5rem;
+    height: 1.5rem;
+    width: 3.5rem;
 }
 
 .bottom-logo a{
-     text-decoration: none;
-     color: #555;
+    text-decoration: none;
+    color: #555;
+
+}
+
+
+.table-container tbody tr:hover td, .table-container tbody tr:hover th,.table-container tfoot tr:hover td, .table-container tfoot tr:hover th {
+    background-color: #FFF7C0;
+}
+
+.bottom-table tbody tr:hover td, .bottom-table tbody tr:hover th,.bottom-table tfoot tr:hover td, .table-container tfoot tr:hover th {
+    background-color: #FFF7C0;
 }
