@@ -140,13 +140,13 @@ thead{
 }
 #r-3{
     text-align: center;
+    width: 10%;
     border-right: 1px solid #cccccc;
     border-bottom: 1px solid #dedede;
     
 }
 .body th{
     width: 45%;
-    
     border-right: 1px solid #cccccc;
     border-bottom: 1px solid #dedede;
     font-weight:bold;
@@ -160,7 +160,7 @@ thead{
 
 .head{
     background-color: #dedede;
-    text-align: left;
+    /* text-align: left; */
     vertical-align: bottom;
     
 }
@@ -248,6 +248,7 @@ tbody.body tr.even {
 }
 .barpink{
     background-color: #DD1f5D;
+    width: 4.90%;
     border-radius: 1px solid #DD1f5D;
 }
 .barpurple{
@@ -261,13 +262,22 @@ tbody.body tr.even {
 }
 
 .side-b{
-    float: left;
-    margin-left: 2.5rem;
+    width: 32%;
+    float: right;
 }
 .chart-use-again{
-    float: left;
+
+    display: inline-block;
     padding-top: 3px;
     margin-bottom: 15px;
+}
+.chart-use-again h3{
+    font-size: 15px;
+    font-weight: normal;
+    margin: 0;
+}
+.chart-1-container{
+    padding: 12px;
 }
 .image-container{
     padding: 15px;
@@ -276,6 +286,135 @@ tbody.body tr.even {
     color: #ccc;
 }
 .image{
-    height: 9rem;
+    height: 9.5rem;
     width: 13.75rem;
+}
+.dot{
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    
+}
+
+.list-container{
+    list-style: none;
+    margin: 0;
+    color: #000;
+    padding: 3px 0;
+    text-align: left;
+    
+}
+li .inline{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+li{
+    padding: 3px 0;
+}
+.chart-text{
+    font-size: 9px;
+    margin-left: 4px;
+    color: #000000;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.color-blue{
+    background-color: #499cc9;
+    margin-top: 2px;
+}
+
+.color-red{
+    background-color: #D03A11;
+    margin-top: 2px;
+}
+
+.color-green{
+    background-color: #AACC0D;
+    margin-top: 2px;
+}
+
+.color-orange{
+    background-color: #FA9300;
+    margin-top: 2px;
+}
+
+.color-yellow{
+    background-color: #F9CC0B;
+    margin-top: 2px;
+}
+
+.container-3{
+    clear: both;
+}
+
+.body th.column-1 {
+    text-align: center;
+    vertical-align: middle;
+    width: 10%;
+}
+
+th.view-more {
+    padding: 5px;
+    text-align: center;
+    font-weight: normal;
+    background-color: #dedede;
+    font-weight: bolder;
+}
+
+.view-more a{
+    color: blue;
+    outline: none;
+}
+.column-3{
+    font-size: 10px;
+    text-align: center;
+    width: 20%;
+    border-right: 1px solid #cccccc;
+    border-bottom: 1px solid #dedede;
+
+}
+#stlye{
+    font-weight: bold;
+}
+.total-values{
+
+    text-align:left;
+    padding-left: 4px;
+    border-right: 1px solid #cccccc;
+    border-bottom: 1px solid #dedede;
+} 
+.footer{
+    text-align: center;
+    font-size: 86%;
+    margin: 0px 10px;
+    padding: 10px 0 0 ;
+
+}
+.bottom-logo{
+    display: inline-block;
+    overflow: auto;
+    margin: auto;
+    width: 22rem;
+    border-radius: 25px;
+    margin: 5 auto 25 auto;
+    padding: 5px 14px;
+    text-align: center;
+    font-size: 12px;
+    border: 1px solid #dedede;
+    color: #555;
+    line-height: 24px;
+    background-color: #eaeaea;
+   
+    
+}
+.bottom-logo img{
+    height: 3.5rem;
+    width: 5rem;
+}
+
+.bottom-logo a{
+     text-decoration: none;
+     color: #555;
 }
