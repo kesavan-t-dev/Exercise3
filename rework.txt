@@ -1,0 +1,7 @@
+Review on task:-
+Weight of the font in title stated as "This is my report. view it in all its glory!" should be reduced according to the sample UI.
+The color of the "6.35%" text is slightly mismatched.
+Data in the last table is mismatched.
+The footer logo and the position of text within that logo is mismatched.
+In last table the text format for total value is mismatched
+Please refer the sample UI for reference.

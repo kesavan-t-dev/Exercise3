@@ -1,0 +1,7 @@
+https://examples.wufoo.com/reports/example-satisfaction-survey-report/
+
+Create a cfm file and design the page displayed in above URL. ( should be a cfm file as we need to use this file in future for coldfusion CRUD )
+
+Hard code all the data(displyed in above URL design) in the page.
+
+Use HTML and CSS to develop this. Also avoid inline styles & use classes & ids in appropriate places.

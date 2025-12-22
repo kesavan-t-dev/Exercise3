@@ -31,7 +31,7 @@ h2{
     font-size: 20.5px;
 }
 .logo{
-    background-color: #FA9300;
+    background-color: #ff9900;
     height: 5rem;
     display: block;
 }
@@ -51,7 +51,7 @@ h2{
 .subtitle{
     line-height: 130%;
     text-align: left;
-    font-size: 95% ;
+    font-size: 90% ;
 }
 .side-a{
     float: left;
@@ -77,7 +77,7 @@ h2{
     padding-bottom: 3px;
 }
 #c-3{
-    color: #3a7b9f;
+    color: #3A7B9F;
     font-size: 190%;
     font-style: normal;
     font-weight: bold;
@@ -106,6 +106,7 @@ h2{
   padding: 0 0 12px;
   font-size: 15px;
   float: left;
+  color: #ff0000;
   font-weight: normal;
   margin: 3px 0 0 0;
 }
@@ -423,7 +424,7 @@ th.view-more {
 }
 
 .style{
-    font-style: italic;
+    font-weight: bold;
     font-size: 12px;
 }
 .footer{
@@ -435,22 +436,26 @@ th.view-more {
 .bottom-logo{
     display: inline-block;
     border-radius: 14px;
-    padding: 0px 10px 3px 14px;
+    padding: 8px 11px;
     border: 1px solid #dedede;
     color: #555;
     background-color: #eaeaea;
     cursor: pointer;
     margin: 5px 0 25px;
-}
-.bottom-logo img{
-    height: 2.8rem;
-    /* width: 5.5rem; */
+    text-decoration: none;
+    font-size: 11px;
 }
 
+.bottom-logo img{
+    display: inline-flex;
+    padding: none;
+    height: 1.8rem;
+    width: auto;
+}
 .bottom-logo a{
     text-decoration: none;
     color: #555;
-    font-size: 11px;
+    height: 20px;
 }
 
 
